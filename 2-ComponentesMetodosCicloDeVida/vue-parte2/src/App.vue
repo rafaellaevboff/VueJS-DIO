@@ -3,6 +3,14 @@
     <ButtonVue></ButtonVue>
     <ButtonString></ButtonString>
     <ButtonTemplateString></ButtonTemplateString>
+    <ButtonXTemplate></ButtonXTemplate>
+    <ButtonInline inline-template>
+      <button @click="click">
+        Click ButtonVueInline {{count}} times
+    </button>
+    </ButtonInline>
+    <ButtonRender></ButtonRender>
+    <ButtonJSX></ButtonJSX>
   </div>
 </template>
 
