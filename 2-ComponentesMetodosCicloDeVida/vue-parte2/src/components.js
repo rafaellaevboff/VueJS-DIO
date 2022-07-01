@@ -14,3 +14,21 @@ Vue.component('ButtonString', {
         }
     }
 })
+
+Vue.component('ButtonTemplateString', {
+    template: `
+        <button @click="click">
+            Click ButtonTemplateString {{count}} times
+        </button>
+    `,
+    data() {
+        return {
+            count: 0,
+        }
+    },
+    methods: {
+        click() {
+            this.count++;
+        }
+    }
+})

@@ -2,6 +2,7 @@
   <div id="app">
     <ButtonVue></ButtonVue>
     <ButtonString></ButtonString>
+    <ButtonTemplateString></ButtonTemplateString>
   </div>
 </template>
 
